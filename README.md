@@ -1,36 +1,67 @@
-## Product story
-
-During these different times, people have learned to adapt to these situations. Exercising and working out is one of them, we are limited just to our doorsteps and cannot find out a way to workout like most of us would normally. A home gym is too much of an investment, so many companies came up with digital weights and home workout stations that is essentially like a 11 in 1 device. Despite it all sounding intriguing and stuff, it is still a few thousand dollars and as we know of the situation in the US, many people have ran out of savings and are struggling to survive, how can they simply pull out 4 thousand bucks and buy a home gym mirror. Although in these times, many would eliminate the unnessecary and focus on the essentials for their living, I believe that a healthy lifestyle is crucial to a physically and mentally positive lifestyle. Many people who are still in quarantine and want to get their daily workout routine in has came to the idea of body weight workouts, push ups, sit ups and many more.  That leads me to the point of why I came up with the Fitny, a wearable device in the form of compression shorts or compression tee shirt that enforces resistance on your body  so when you are doing you daily body weight excersises you can feel like you are packing on some pounds just like how to lets say, squat in a gym. A lot of body builders use a large amount of extra weights when they are doing the body excersises they do at home, doing it with out weights often significantly decrease the effects of the excersise as they would feel like doing it is effortless. The fitly does not only provide resistance for body joints when exercising, it can also be used to assist athletes or people who are recovering from a leg or arm injury as the the joint device can be controlled to no resistance at all. Overall, the Fitny is a device for people who are looking for a portable and useful workout experience just at the comfort of their home and also people that are looking for a recovery device for their joints.
-![image](https://github.com/PheromG/pheromg.github.io/blob/master/download.jpg)
-
-### Smart resistance joint system
-
-The fitny is also not only limited to your home, you go out for a run in them as well and the Fitny device that you wear on your legs would give you a tougher run and  exercise your muscles even more. It increases muscle usages on the body part that Fitny is strapped on and increases your exercise level in a shorter period of time. It is portable, affordable, and time saving.
-
-```markdown
-Syntax highlighted code block
-
 # Header 1
 ## Header 2
 ### Header 3
+#1 INTRODUCTION
 
-- Bulleted
-- List
+##1.1 BACK GROUND
+	Exercising has always been a habit of many people around me. But all of them knows how expensive it can cost us. The average cost of a gym membership is normally around 60$ per month. Additionally, the current pandemic takes away the accessibility of public gyms. Therefore traditional gyms are unable to 
 
-1. Numbered
-2. List
+Exercising using sand bags as extra weight can be very tiring and useless because it is quite heavy and takes a lot of space. With the fitny, it acts as a smart weight bag using a air bag friction system installed in a knee/arm guard, which allows for light weight and portability.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##1.2Current approach
 
-### Jekyll Themes
+	The most popular thing used to add weight on one’s body to assert more force are weight vests, They are physical weights that you have to wear on your body. Most of the time they feel uncomfortable when wearing and it is inconvenient to bring around places. Additionally, resistance bands are another way to allow the further activation of your muscles used through the form of physical resistance, but it can only account for one specific level of force, and when you want to proceed on to a heavier level, you would have to buy another band. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PheromG/Danny.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#2 methodology
+##2.1Overview
+	A new system needs to be used to not only allow for the customizability of weight vests when switching out weight block s but also allow for the portability like resistance bands. So I have came up with the airbag pressure system. Using this developed technology, it can be put in to a knee guard or arm guard 
+Hardware design
+	the circular casing that is placed on the side of the knees would act as the axle for the arm/leg connection to turn and with the air pumped inside, the friction of the airbag and the inside surface of the circular casing would increase. Thus it would make it harder to move, therefore requiring the user to use more force on the legs or arms to fold their joints like in many exercises we do everyday.
+	The electronics connection is as shown in the second diagram with the Arduino board in the center and connecting to the battery for the device, the Bluetooth board for the connect not it to the user’s mobile device and the pump and valve for the pumping and locking in of air in the airbag.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##2.2Processing(Arduino code)
+	The Arduino board will be connected to a bluetooth chip, the battery, the air valve and pump which will be connected to our phones through bluetooth to allow the control of the pumps wirelessly. The phone application would specify the amount of force in kg to adjust in the device. Then it will send the command to the Arduino board to turn on the valve or pump for the specified amount of time, the code is a cycle which will assess either a command for the valve or pump is there and carry it out. It the board receives a command to start pumping, it would move on to see if there was a command for the valve to turn on as well and then it would carry out the command after each part is assessed. The cycle carries on continuously when the device is turned on. 
+Results and discussion
+User interface
+	A phone application will be made for the user to control the pressure for their own devices and they can either use the default 2 second pump time to send to the Arduino board or they can customize how long they want their air pump time to be. Wan the user asks for the pump to be on, the valve would automatically be on as well to secure the air inside the bag, this command is sent from the phone so it does not interfere with the arduino code at all.
+
+#3Results and discussion	
+The device currently works but with little pressure in reality, it is not able to achieve the goal of having over 5kg of force, more designing in to the component is needed. However, it does work and the design does provide the user with some need of force(average of 0.5 kg checked using a force measurer).
+
+##3.1Graph and table
+
+
+##3.2Resulting product
+
+
+
+
+
+
+
+
+
+
+
+
+###3.2.1Application page product
+
+The application is designed with 2 pages in which the first one allows the user to send default and customized time command to the air pump and the second page is where the user and put in their height and weight for a truly optimum pressure amount.
+
+
+
+
+
+
+
+
+
+
+
+
+
+#4Conclusion
+To conclude, the device is using an air pump as a pressure inductor and then with the Arduino board, it makes it Abel to receive commands for it to turn on or off. Then the Arduino program makes it so that it can turn on or off for a specific amount of time and with the bluetooth board, it is able to receive commands from another pat form for it to send to the Arduino board and lastly, the application is that platform which worked out extremely well. It was a successful product and in then end it does make the user exert more force when wearing the device. Overall, it is safe to say that this device would make working out more accessible to the public.
