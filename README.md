@@ -1,21 +1,18 @@
-# Header 1
-## Header 2
-### Header 3
-#1 INTRODUCTION
+# 1 INTRODUCTION
 
-##1.1 BACK GROUND
+## 1.1 BACK GROUND
 	Exercising has always been a habit of many people around me. But all of them knows how expensive it can cost us. The average cost of a gym membership is normally around 60$ per month. Additionally, the current pandemic takes away the accessibility of public gyms. Therefore traditional gyms are unable to 
 
 Exercising using sand bags as extra weight can be very tiring and useless because it is quite heavy and takes a lot of space. With the fitny, it acts as a smart weight bag using a air bag friction system installed in a knee/arm guard, which allows for light weight and portability.
 
 
 
-##1.2Current approach
+## 1.2Current approach
 
 	The most popular thing used to add weight on one’s body to assert more force are weight vests, They are physical weights that you have to wear on your body. Most of the time they feel uncomfortable when wearing and it is inconvenient to bring around places. Additionally, resistance bands are another way to allow the further activation of your muscles used through the form of physical resistance, but it can only account for one specific level of force, and when you want to proceed on to a heavier level, you would have to buy another band. 
 
-#2 methodology
-##2.1Overview
+# 2 methodology
+## 2.1Overview
 	A new system needs to be used to not only allow for the customizability of weight vests when switching out weight block s but also allow for the portability like resistance bands. So I have came up with the airbag pressure system. Using this developed technology, it can be put in to a knee guard or arm guard 
 Hardware design
 	the circular casing that is placed on the side of the knees would act as the axle for the arm/leg connection to turn and with the air pumped inside, the friction of the airbag and the inside surface of the circular casing would increase. Thus it would make it harder to move, therefore requiring the user to use more force on the legs or arms to fold their joints like in many exercises we do everyday.
@@ -28,16 +25,13 @@ Results and discussion
 User interface
 	A phone application will be made for the user to control the pressure for their own devices and they can either use the default 2 second pump time to send to the Arduino board or they can customize how long they want their air pump time to be. Wan the user asks for the pump to be on, the valve would automatically be on as well to secure the air inside the bag, this command is sent from the phone so it does not interfere with the arduino code at all.
 
-#3Results and discussion	
+# 3Results and discussion	
 The device currently works but with little pressure in reality, it is not able to achieve the goal of having over 5kg of force, more designing in to the component is needed. However, it does work and the design does provide the user with some need of force(average of 0.5 kg checked using a force measurer).
 
-##3.1Graph and table
+## 3.1Graph and table
 
 
-##3.2Resulting product
-
-
-
+## 3.2Resulting product
 
 
 
@@ -47,7 +41,10 @@ The device currently works but with little pressure in reality, it is not able t
 
 
 
-###3.2.1Application page product
+
+
+
+### 3.2.1Application page product
 
 The application is designed with 2 pages in which the first one allows the user to send default and customized time command to the air pump and the second page is where the user and put in their height and weight for a truly optimum pressure amount.
 
@@ -63,5 +60,5 @@ The application is designed with 2 pages in which the first one allows the user 
 
 
 
-#4Conclusion
+# 4Conclusion
 To conclude, the device is using an air pump as a pressure inductor and then with the Arduino board, it makes it Abel to receive commands for it to turn on or off. Then the Arduino program makes it so that it can turn on or off for a specific amount of time and with the bluetooth board, it is able to receive commands from another pat form for it to send to the Arduino board and lastly, the application is that platform which worked out extremely well. It was a successful product and in then end it does make the user exert more force when wearing the device. Overall, it is safe to say that this device would make working out more accessible to the public.
