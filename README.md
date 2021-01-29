@@ -1,8 +1,7 @@
 # 1 INTRODUCTION
 
 ## 1.1 BACK GROUND
-	Exercising has always been a habit of many people around me. But all of them knows how expensive it can cost us. The average cost of a gym membership is normally around 60$ per month. Additionally, the current pandemic takes away the accessibility of public gyms. Therefore traditional gyms are unable to 
-
+	Exercising has always been a habit of many people around me. But all of them knows how expensive it can cost us. The average cost of a gym membership is normally around 60$ per month. Additionally, the current pandemic takes away the accessibility of public gyms. Therefore traditional gyms are unable to satisfy many user’s needs.
 Exercising using sand bags as extra weight can be very tiring and useless because it is quite heavy and takes a lot of space. With the fitny, it acts as a smart weight bag using a air bag friction system installed in a knee/arm guard, which allows for light weight and portability.
 
 
