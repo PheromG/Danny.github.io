@@ -30,7 +30,9 @@ The device currently works but with little pressure in reality, it is not able t
 
 
 ## 3.2 Resulting product
-
+### 3.2.1 october 202 perototype
+### 3.2.2 december 2020 prototype
+![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202021-02-05%20at%202.26.41%20PM%201.png)
 
 
 
