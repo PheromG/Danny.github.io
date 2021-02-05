@@ -13,11 +13,14 @@ Exercising using sand bags as extra weight can be very tiring and useless becaus
 # 2 methodology
 ## 2.1 Overview
 	A new system needs to be used to not only allow for the customizability of weight vests when switching out weight block s but also allow for the portability like resistance bands. So I have came up with the airbag pressure system. Using this developed technology, it can be put in to a knee guard or arm guard 
-Hardware design
+## 2.2Hardware design
 	the circular casing that is placed on the side of the knees would act as the axle for the arm/leg connection to turn and with the air pumped inside, the friction of the airbag and the inside surface of the circular casing would increase. Thus it would make it harder to move, therefore requiring the user to use more force on the legs or arms to fold their joints like in many exercises we do everyday.
 	The electronics connection is as shown in the second diagram with the Arduino board in the center and connecting to the battery for the device, the Bluetooth board for the connect not it to the user’s mobile device and the pump and valve for the pumping and locking in of air in the airbag. 
+### 2.2.1 Hardare design
+### 2.2.2 electronic connections
+![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202020-12-29%20at%2010.43.04%20AM.png)
 
-## 2.2 Processing(Arduino code)
+## 2.3 Processing(Arduino code)
 	The Arduino board will be connected to a bluetooth chip, the battery, the air valve and pump which will be connected to our phones through bluetooth to allow the control of the pumps wirelessly. The phone application would specify the amount of force in kg to adjust in the device. Then it will send the command to the Arduino board to turn on the valve or pump for the specified amount of time, the code is a cycle which will assess either a command for the valve or pump is there and carry it out. It the board receives a command to start pumping, it would move on to see if there was a command for the valve to turn on as well and then it would carry out the command after each part is assessed. The cycle carries on continuously when the device is turned on. 
 
  ## 2.3User interface
@@ -27,10 +30,10 @@ Hardware design
 The device currently works but with little pressure in reality, it is not able to achieve the goal of having over 5kg of force, more designing in to the component is needed. However, it does work and the design does provide the user with some need of force(average of 0.5 kg checked using a force measurer).
 
 ## 3.1 Graph and table 
-
+![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202021-02-05%20at%202.30.37%20PM.png)
 
 ## 3.2 Resulting product
-### 3.2.1 october 202 perototype
+### 3.2.1 october 2020 perototype
 ![](https://github.com/PheromG/pheromg.github.io/blob/master/28b8e916ceacc891419d7c5676dff0c.jpg)
 
 ### 3.2.2 december 2020 prototype
