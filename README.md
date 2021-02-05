@@ -17,11 +17,14 @@ Exercising using sand bags as extra weight can be very tiring and useless becaus
 	the circular casing that is placed on the side of the knees would act as the axle for the arm/leg connection to turn and with the air pumped inside, the friction of the airbag and the inside surface of the circular casing would increase. Thus it would make it harder to move, therefore requiring the user to use more force on the legs or arms to fold their joints like in many exercises we do everyday.
 	The electronics connection is as shown in the second diagram with the Arduino board in the center and connecting to the battery for the device, the Bluetooth board for the connect not it to the user’s mobile device and the pump and valve for the pumping and locking in of air in the airbag. 
 ### 2.2.1 Hardare design
+![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202020-12-29%20at%2010.46.35%20AM.png)
 ### 2.2.2 electronic connections
 ![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202020-12-29%20at%2010.43.04%20AM.png)
 
 ## 2.3 Processing(Arduino code)
 	The Arduino board will be connected to a bluetooth chip, the battery, the air valve and pump which will be connected to our phones through bluetooth to allow the control of the pumps wirelessly. The phone application would specify the amount of force in kg to adjust in the device. Then it will send the command to the Arduino board to turn on the valve or pump for the specified amount of time, the code is a cycle which will assess either a command for the valve or pump is there and carry it out. It the board receives a command to start pumping, it would move on to see if there was a command for the valve to turn on as well and then it would carry out the command after each part is assessed. The cycle carries on continuously when the device is turned on. 
+### 2.3.1 code flow chart
+![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202020-12-29%20at%2010.44.46%20AM.png)
 
  ## 2.3User interface
 	A phone application will be made for the user to control the pressure for their own devices and they can either use the default 2 second pump time to send to the Arduino board or they can customize how long they want their air pump time to be. Wan the user asks for the pump to be on, the valve would automatically be on as well to secure the air inside the bag, this command is sent from the phone so it does not interfere with the arduino code at all.
@@ -49,9 +52,13 @@ The device currently works but with little pressure in reality, it is not able t
 
 
 
-### 3.2.4 Application page 
+## 3.3 Application page 
  
 The application is designed with 2 pages in which the first one allows the user to send default and customized time command to the air pump and the second page is where the user and put in their height and weight for a truly optimum pressure amount.
+### 3.3.1 1st page
+![](https://github.com/PheromG/pheromg.github.io/blob/master/32f702175dfeca4d6abb34ec4c90701.jpg)
+### 3.3.2 2nd page
+![](https://github.com/PheromG/pheromg.github.io/blob/master/01f5820053f390a9daed240dbc50f1b.jpg)
 
 
 
