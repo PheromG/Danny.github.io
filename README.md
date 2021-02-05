@@ -33,7 +33,10 @@ Exercising using sand bags as extra weight can be very tiring and useless becaus
 The device currently works but with little pressure in reality, it is not able to achieve the goal of having over 5kg of force, more designing in to the component is needed. However, it does work and the design does provide the user with some need of force(average of 0.5 kg checked using a force measurer).
 
 ## 3.1 Graph and table 
+### 3.1.1 Graph
 ![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202021-02-05%20at%202.30.37%20PM.png)
+### 3.3.2 table
+![](https://github.com/PheromG/pheromg.github.io/blob/master/Screen%20Shot%202021-02-05%20at%202.25.36%20PM.png)
 
 ## 3.2 Resulting product
 ### 3.2.1 october 2020 perototype
